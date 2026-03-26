@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(pipo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    background: transparent;
+    border: 2px solid #fbf6fb;
+    backdrop-filter: blur(20px);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.295);
+    width: 420px;
+}
+
+.wrapper h1 {
+    font-style: bold;
+    font-size: 36px;
+    font-weight: 500;
+    color: #8d149f;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wrapper .input-box {
+    position: relative;
+    gap: 15px;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #8d149f;
+    border-radius: 40px;
+    padding: 20px 45px 20px 20px;
+    font-size: 16px;
+    color: #ac3fe7;
+}
+
+.input-box input::placeholder {
+    border-bottom-color: #8d149f;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #8d149f;
+    cursor: pointer;
+}
+
+.wrapper .content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    color: #8d149f;
+}
+
+.content a {
+    color: #8d149f;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.wrapper .button {
+    width: 100%;
+    height: 50px;
+    background-color: #8d149f;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wrapper .button:hover {
+    background: linear-gradient(270deg, #d17fdd, #8d149f);
+}
+
+.content .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content .checkbox input {
+    width: 16px;
+    height: 16px;
+    accent-color: #8d149f;
+}
+
+.content .checkbox label {
+    color: #8d149f;
+    font-size: 14px;
+}
+
+.content .checkbox label:hover {
+    text-decoration: underline;
+}
+
+.wrapper .signup-link {
+    text-align: center;
+    margin: 20px 0 15px;
+    font-size: 14px;
+    color: #8d149f;
+}
+
+.wrapper .signup-link a {
+    color: #8d149f;
+    text-decoration: none;
+}
+
+.wrapper .signup-link a:hover {
+    text-decoration: underline;
+}
